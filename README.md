@@ -370,3 +370,12 @@ Machine Learning / NLP pet project.
 Try the deployed application here:
 
 [Open Streamlit App](https://portfolio-1-project-banking77-intent-classifier.streamlit.app/)
+
+## Running with Docker
+
+Build the Docker image:
+
+```bash
+git add Dockerfile README.md
+git commit -m "Add Docker support"
+git push
