@@ -1,3 +1,7 @@
+## Application Demo
+
+![Banking77 Intent Classifier Demo](assets/website.png)
+
 # Banking77 Intent Classifier
 
 A machine learning project for classifying banking customer queries into 77 intent categories using the Banking77 dataset.
@@ -370,6 +374,7 @@ Machine Learning / NLP pet project.
 Try the deployed application here:
 
 [Open Streamlit App](https://portfolio-1-project-banking77-intent-classifier.streamlit.app/)
+
 
 ## Running with Docker
 
