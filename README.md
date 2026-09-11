@@ -185,10 +185,10 @@ The application can also return the Top-3 most probable intents.
 
 Example:
 
-```text
-declined_card                  91.32%
-card_payment_wrong_exchange_rate 3.41%
-cash_withdrawal                1.15%
+```Top-3 predictions:
+declined_card
+card_payment_wrong_exchange_rate
+cash_withdrawal
 ```
 
 This makes it possible to inspect alternative model predictions when the classification is uncertain.
@@ -206,13 +206,10 @@ The application allows the user to:
 - view the Top-3 predictions
 - view the probability assigned to each prediction
 
-Run the application locally with:
+Live demo:
 
-```bash
-streamlit run app.py
-```
+[Banking77 Intent Classifier](https://portfolio-1-project-banking77-intent-classifier.streamlit.app/)
 
----
 
 ## Project Structure
 
@@ -268,7 +265,7 @@ Contains the trained Scikit-learn pipeline.
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/AskhatMeruyert/banking77-intent-classifier.git
 cd banking77-intent-classifier
 ```
 
@@ -367,3 +364,9 @@ Possible future improvements include:
 **Meruyert Askhat**
 
 Machine Learning / NLP pet project.
+
+## Live Demo
+
+Try the deployed application here:
+
+[Open Streamlit App](https://portfolio-1-project-banking77-intent-classifier.streamlit.app/)
